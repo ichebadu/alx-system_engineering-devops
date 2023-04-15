@@ -19,3 +19,4 @@ If the webpage requires dynamic content, such as personalized search results, th
 Finally, if the webpage requires data from a database, the application server retrieves it from the database and includes it in the response. A database is a structured collection of data that stores information in a way that enables efficient retrieval.
 
 In conclusion, when you type "https://www.google.com" in your browser, a complex series of backend processes involving DNS requests, TCP/IP, firewalls, HTTPS/SSL, load balancers, web servers, application servers, and databases occurs to provide you with the search engine's homepage. Understanding the different backend technologies involved can help you troubleshoot issues and optimize performance when building web applications.
+https://www.linkedin.com/feed/update/urn:li:activity:7052852447559434240/
