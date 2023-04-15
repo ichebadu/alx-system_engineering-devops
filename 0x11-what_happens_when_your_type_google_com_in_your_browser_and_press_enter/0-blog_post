@@ -1,0 +1,21 @@
+##What happens when you type google.com in your browser and press Enter.
+
+When you type "https://www.google.com" in your browser and press enter, a lot of things happen in the backend before you see the search engine's homepage. Let's take a closer look at the process and the different backend technologies involved.
+
+First, your browser sends a Domain Name System (DNS) request to your Internet Service Provider's (ISP) DNS server. DNS is like a phone book for the internet, converting domain names into IP addresses. The DNS server responds with the IP address of the server hosting "www.google.com."
+
+Next, your browser uses the Transmission Control Protocol/Internet Protocol (TCP/IP) to establish a connection with the server. TCP/IP is a suite of protocols that allows devices to communicate over the internet.
+
+Before the connection is established, your request must pass through a firewall. A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+
+Once the connection is established, the browser and the server negotiate a secure communication channel using the Hypertext Transfer Protocol Secure (HTTPS) protocol and the Secure Sockets Layer (SSL) or Transport Layer Security (TLS) encryption. HTTPS is a secure version of HTTP, the protocol used to transfer data between the browser and the server. SSL and TLS are cryptographic protocols that ensure the integrity and confidentiality of the data transmitted.
+
+If Google's servers receive a large volume of requests, the load balancer distributes the traffic across multiple servers to prevent overloading and ensure optimal performance. A load balancer is a device or software that distributes network traffic across a group of servers.
+
+Once the request reaches the server, the web server software, such as Apache or Nginx, handles the request and returns the webpage to the browser. A web server is software that listens for incoming requests and responds by serving up web pages.
+
+If the webpage requires dynamic content, such as personalized search results, the request is passed on to an application server. An application server is a server that hosts applications and provides services such as transaction management, security, and clustering.
+
+Finally, if the webpage requires data from a database, the application server retrieves it from the database and includes it in the response. A database is a structured collection of data that stores information in a way that enables efficient retrieval.
+
+In conclusion, when you type "https://www.google.com" in your browser, a complex series of backend processes involving DNS requests, TCP/IP, firewalls, HTTPS/SSL, load balancers, web servers, application servers, and databases occurs to provide you with the search engine's homepage. Understanding the different backend technologies involved can help you troubleshoot issues and optimize performance when building web applications.
