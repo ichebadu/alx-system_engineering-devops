@@ -36,3 +36,4 @@ if __name__ == "__main__":
         for i in json_req:
             write.writerow([idEmp, usr, i.get('completed'), i.get('title')])
 
+
